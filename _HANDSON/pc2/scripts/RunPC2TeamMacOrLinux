@@ -1,0 +1,5 @@
+#!/bin/sh
+
+cd "$(dirname "$0")"
+chmod +x ./pc2team
+./pc2team

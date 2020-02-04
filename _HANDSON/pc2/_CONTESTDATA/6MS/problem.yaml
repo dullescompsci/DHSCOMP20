@@ -1,0 +1,49 @@
+# Problem configuration, version 1.0 
+# PC^2 Version: Version 9.6.0 20190102 (Wednesday, January 2nd 2019 01:20 UTC) Java ver 1.8.0_231 build 5102 Windows 10 10.0 (amd64) 
+# Created: 2020-01-31 22:57:26 CST
+--- 
+
+name: '6 Memory Sort'
+source: 
+author: 
+license: 
+rights_owner: 
+
+hideProblem: false
+showOutputWindow: true
+showCompare: true
+showValidationResults: true
+load-data-files: true
+stop-on-first-failed-test-case: false
+
+# groups: 
+
+datafile: memory_sort.dat
+answerfile: memory_sort.out
+
+validator_flags: case_sensitive space_change_sensitive
+
+limits:
+    timeout: 30
+
+validator: 
+    validatorProg: 'edu.csus.ecs.pc2.validator.clicsValidator.ClicsValidator'
+    validatorCmd: '{:validator} {:infile} {:ansfile} {:feedbackdir} '
+    usingInternal: false
+    validatorOption: 0
+
+    use-internal-validator: false
+    use-clics-validator: true
+    use-custom-validator: false
+
+judging-type:
+    computer-judged: true
+    manual-review: true
+    send-prelim-judgement: false
+
+input:
+    readFromSTDIN: false
+
+#     wrote (D)C:/Users/Azrael/Desktop/New folder/_HANDSON/pc2/_CONTESTDATA/6MS/data/secret/memory_sort.dat
+#     wrote (A)C:/Users/Azrael/Desktop/New folder/_HANDSON/pc2/_CONTESTDATA/6MS/data/secret/memory_sort.out
+

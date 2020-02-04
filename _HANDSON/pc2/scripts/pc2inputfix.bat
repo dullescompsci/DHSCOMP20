@@ -1,0 +1,1 @@
+cp *.dat file.in && cp *.out file.ans

@@ -1,0 +1,125 @@
+# Contest Configuration, Problem Set, version 1.0 
+# PC^2 Version: Version 9.6.0 20190102 (Wednesday, January 2nd 2019 01:20 UTC) Java ver 1.8.0_231 build 5102 Windows 10 10.0 (amd64) 
+# Created: 2020-01-31 22:57:26 CST
+problems:
+  - letter: A
+    short-name: 1WS
+    name: '1 Word Score '
+    color: 
+    rgb: ''
+    load-data-files: true
+#     4 data files written
+#     wrote C:/Users/Azrael/Desktop/New folder/_HANDSON/pc2/_CONTESTDATA/1WS/data/secret/judge_food_supply.in
+#     wrote C:/Users/Azrael/Desktop/New folder/_HANDSON/pc2/_CONTESTDATA/1WS/data/secret/student_food_supply.in
+#     wrote C:/Users/Azrael/Desktop/New folder/_HANDSON/pc2/_CONTESTDATA/1WS/data/secret/judge_food_supply.ans
+#     wrote C:/Users/Azrael/Desktop/New folder/_HANDSON/pc2/_CONTESTDATA/1WS/data/secret/student_food_supply.ans
+
+  - letter: B
+    short-name: 2PC
+    name: '2 Point Collection'
+    color: 
+    rgb: ''
+    load-data-files: true
+#     2 data files written
+#     wrote C:/Users/Azrael/Desktop/New folder/_HANDSON/pc2/_CONTESTDATA/2PC/data/secret/point_collection.dat
+#     wrote C:/Users/Azrael/Desktop/New folder/_HANDSON/pc2/_CONTESTDATA/2PC/data/secret/point_collection.out
+
+  - letter: C
+    short-name: 3RU
+    name: '3 Runner'
+    color: 
+    rgb: ''
+    load-data-files: true
+#     2 data files written
+#     wrote C:/Users/Azrael/Desktop/New folder/_HANDSON/pc2/_CONTESTDATA/3RU/data/secret/runner.dat
+#     wrote C:/Users/Azrael/Desktop/New folder/_HANDSON/pc2/_CONTESTDATA/3RU/data/secret/runner.out
+
+  - letter: D
+    short-name: 4FS
+    name: '4 Food Supply'
+    color: 
+    rgb: ''
+    load-data-files: true
+#     2 data files written
+#     wrote C:/Users/Azrael/Desktop/New folder/_HANDSON/pc2/_CONTESTDATA/4FS/data/secret/food_supply.dat
+#     wrote C:/Users/Azrael/Desktop/New folder/_HANDSON/pc2/_CONTESTDATA/4FS/data/secret/food_supply.out
+
+  - letter: E
+    short-name: 5GB
+    name: '5 Gameboy'
+    color: 
+    rgb: ''
+    load-data-files: true
+#     1 data files written
+#     wrote C:/Users/Azrael/Desktop/New folder/_HANDSON/pc2/_CONTESTDATA/5GB/data/secret/judge_gameboy.ans
+
+  - letter: F
+    short-name: 6MS
+    name: '6 Memory Sort'
+    color: 
+    rgb: ''
+    load-data-files: true
+#     2 data files written
+#     wrote C:/Users/Azrael/Desktop/New folder/_HANDSON/pc2/_CONTESTDATA/6MS/data/secret/memory_sort.dat
+#     wrote C:/Users/Azrael/Desktop/New folder/_HANDSON/pc2/_CONTESTDATA/6MS/data/secret/memory_sort.out
+
+  - letter: G
+    short-name: 7HF
+    name: '7 Heron's Formula'
+    color: 
+    rgb: ''
+    load-data-files: true
+#     2 data files written
+#     wrote C:/Users/Azrael/Desktop/New folder/_HANDSON/pc2/_CONTESTDATA/7HF/data/secret/herons.dat
+#     wrote C:/Users/Azrael/Desktop/New folder/_HANDSON/pc2/_CONTESTDATA/7HF/data/secret/herons.out
+
+  - letter: H
+    short-name: 8ST
+    name: '8 Space Trader'
+    color: 
+    rgb: ''
+    load-data-files: true
+#     2 data files written
+#     wrote C:/Users/Azrael/Desktop/New folder/_HANDSON/pc2/_CONTESTDATA/8ST/data/secret/space_trader.dat
+#     wrote C:/Users/Azrael/Desktop/New folder/_HANDSON/pc2/_CONTESTDATA/8ST/data/secret/space_trader.out
+
+  - letter: I
+    short-name: 9RO
+    name: '9 Roads'
+    color: 
+    rgb: ''
+    load-data-files: true
+#     2 data files written
+#     wrote C:/Users/Azrael/Desktop/New folder/_HANDSON/pc2/_CONTESTDATA/9RO/data/secret/roads.dat
+#     wrote C:/Users/Azrael/Desktop/New folder/_HANDSON/pc2/_CONTESTDATA/9RO/data/secret/roads.out
+
+  - letter: J
+    short-name: 10S
+    name: '10 Sale'
+    color: 
+    rgb: ''
+    load-data-files: true
+#     2 data files written
+#     wrote C:/Users/Azrael/Desktop/New folder/_HANDSON/pc2/_CONTESTDATA/10S/data/secret/sale.dat
+#     wrote C:/Users/Azrael/Desktop/New folder/_HANDSON/pc2/_CONTESTDATA/10S/data/secret/sale.out
+
+  - letter: K
+    short-name: 11O
+    name: '11 Occurring Difference'
+    color: 
+    rgb: ''
+    load-data-files: true
+#     2 data files written
+#     wrote C:/Users/Azrael/Desktop/New folder/_HANDSON/pc2/_CONTESTDATA/11O/data/secret/occurring_difference.dat
+#     wrote C:/Users/Azrael/Desktop/New folder/_HANDSON/pc2/_CONTESTDATA/11O/data/secret/occurring_difference.out
+
+  - letter: L
+    short-name: 12I
+    name: '12 Inscribe'
+    color: 
+    rgb: ''
+    load-data-files: true
+#     2 data files written
+#     wrote C:/Users/Azrael/Desktop/New folder/_HANDSON/pc2/_CONTESTDATA/12I/data/secret/judge_inscribe.in
+#     wrote C:/Users/Azrael/Desktop/New folder/_HANDSON/pc2/_CONTESTDATA/12I/data/secret/judge_inscribe.ans
+

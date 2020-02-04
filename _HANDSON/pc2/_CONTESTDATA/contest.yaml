@@ -1,0 +1,75 @@
+# Contest Configuration, version 1.0 
+# PC^2 Version: Version 9.6.0 20190102 (Wednesday, January 2nd 2019 01:20 UTC) Java ver 1.8.0_231 build 5102 Windows 10 10.0 (amd64) 
+# Created: 2020-01-31 22:57:26 CST
+--- 
+
+name: 'Dulles CS Competition 2020'
+short-name: 'null'
+elapsed: 1:59:48
+remaining: 3:00:12
+running: true
+auto-stop-clock-at-end: false
+start-time: 2020-01-26 20:30:00 CST
+duration: 5:00:00
+scoreboard-freeze-length: 01:00:00
+# load-data-files: false
+judge-config-path: 
+
+default-clars:
+  - No response, read problem statement
+
+clar-categories:
+  - General
+
+languages:
+  - name: 'Java'
+    active: true
+    compilerCmd: 'javac {:mainfile}'
+    exemask: '{:basename}.class'
+    execCmd: 'java {:package}{:basename}'
+    runner: 'java'
+    runner-args: '{:package}{:basename}'
+    interpreted: false
+    use-judge-cmd: false
+    judge-exec-cmd: 'java {:package}{:basename}'
+
+auto-judging:
+  - account: JUDGE
+    site: 1
+    number: 1
+    letters: A, B, C, D, E, F, G, H, I, J, K, L
+    enabled: yes
+
+  - account: JUDGE
+    site: 1
+    number: 4
+    letters: A, B, C, D, E, F, G, H, I, J, K, L
+    enabled: yes
+
+sites:
+  - number: 1
+    name: 'Site 1'
+    password: site1
+    IP: localhost
+    port: 50002
+
+
+accounts:
+  - account: TEAM
+    site: 1
+    count: 155
+
+  - account: JUDGE
+    site: 1
+    count: 10
+
+  - account: SCOREBOARD
+    site: 1
+    count: 2
+
+  - account: ADMINISTRATOR
+    site: 1
+    count: 2
+
+
+# EOF Contest Configuration
